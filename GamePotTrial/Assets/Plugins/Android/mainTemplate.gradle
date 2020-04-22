@@ -90,14 +90,14 @@ android {
             abiFilters **ABIFILTERS**
         }
 
-resValue "string", "gamepot_project_id", "f206b9c3-4a95-4c19-8d07-09e264fd0ced" // required
- resValue "string", "gamepot_api_url", "https://alpha-api.gamepot.io" // required 10.78.160.183:4000
-   resValue "string", "gamepot_dash_url", "https://alpha-dashboard.gamepot.io"
-   resValue "string", "gamepot_store", "google" // required
-   resValue "string", "gamepot_app_title","@string/app_name" // required (fcm)
-   resValue "string", "gamepot_push_default_channel","Default" // required (fcm)
-   resValue "string", "facebook_app_id", "242663043274091" // optional (facebook)
- resValue "string", "fb_login_protocol_scheme", "fb242663043274091" // optional (facebook)
+	resValue "string", "gamepot_project_id", "" // required
+ 	resValue "string", "gamepot_api_url", "" // required 10.78.160.183:4000
+   	resValue "string", "gamepot_dash_url", ""
+   	resValue "string", "gamepot_store", "google" // required
+   	resValue "string", "gamepot_app_title","@string/app_name" // required (fcm)
+   	resValue "string", "gamepot_push_default_channel","Default" // required (fcm)
+   	resValue "string", "facebook_app_id", "" // optional (facebook)
+ 	resValue "string", "fb_login_protocol_scheme", "" // optional (facebook)
 
 		//resValue "string", "gamepot_twitter_consumerkey","xxxxx" // Twitter 개발자 콘솔에서 획득
 		//resValue "string", "gamepot_twitter_consumersecret","xxx" // Twitter 개발자 콘솔에서 획득
